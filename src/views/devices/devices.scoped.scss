@@ -1,0 +1,57 @@
+.certify-submit{
+    display: flex;
+    justify-content: flex-end;
+    button{
+        width: 150px;
+        height: 60px;
+    }
+    margin-bottom: 10px;
+}
+  
+  .fa{
+    padding-top: auto;
+    font-size: 15px;
+    color: rgba(82, 88, 88, 0.788);
+    display: flex;
+    flex-direction:row;
+    vertical-align: middle;
+  
+  }
+  p{
+    font-size: 12px;
+    margin: 2px;
+  }
+  .device-model{
+      margin-bottom: 20px;
+  }
+
+.device-model{
+      margin-bottom: 0 !important;
+  }
+.transfer-btns{
+    button{
+        width: 260px;
+        height: 60px;
+    }
+    .cancel{
+        width: 260px;
+        height: 60px;
+        background-color: #ffffff;
+        color:#002868;
+        &::hover{
+             background-color: lighten(#002868, 50%) !important;
+             color: #ffffff !important;
+        }
+    }
+}
+
+.select, .ant-select-selection, .ant-input{
+    height: 50px;
+}
+
+.new-submit{
+    button{
+        width: 150px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,37 @@
+stages:
+- name: build
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: miliki-supplier:${CICD_EXECUTION_SEQUENCE}
+      registry: index.docker.io
+    when:
+      branch:
+        include:
+        - dev
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile.qa
+      buildContext: .
+      tag: miliki-supplier:${CICD_EXECUTION_SEQUENCE}
+      registry: index.docker.io
+    when:
+      branch:
+        include:
+        - qa
+- name: deploy
+  steps:
+  - applyYamlConfig:
+      path: ./deployment.yaml
+    when:
+      branch:
+        include:
+        - dev
+  - applyYamlConfig:
+      path: ./deployment-qa.yaml
+    when:
+      branch:
+        include:
+        - qa
+timeout: 60
+notification: {}

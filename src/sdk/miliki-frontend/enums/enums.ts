@@ -1,0 +1,219 @@
+export enum ApproveEnum {
+  APPROVE = "APPROVE",
+  REJECT = "REJECT",
+  RETURN_FOR_AMENDMENT = "RETURN_FOR_AMENDMENT"
+}
+
+export enum MnoStatus {
+  UNAPPROVED = "UNAPPROVED",
+  APPROVED = "APPROVED",
+  SUSPENDED = "SUSPENDED",
+  REJECTED = "REJECTED",
+  MORE_DETAILS_REQUIRED = "MORE_DETAILS_REQUIRED"
+}
+
+export enum RegistrationFileType {
+  MANUFACTURER = "MANUFACTURER",
+  SUPPLIER = "SUPPLIER",
+  TECHNICIAN = "TECHNICIAN",
+  TRADER = "TRADER"
+}
+
+export enum DeviceCommandListEnum {
+  ALL = "ALL",
+  BY_MODEL = "BY_MODEL",
+  SELECTED = "SELECTED",
+  BY_REGION = "BY_REGION"
+}
+
+export enum DeviceCommandStatus {
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  PENDING_APPROVAL = "PENDING_APPROVAL"
+}
+
+export enum DeviceCommandTypeEnum {
+  BLOCK = "BLOCK",
+  UNBLOCK = "UNBLOCK",
+  MESSAGE = "MESSAGE",
+  FIRMWARE_UPDATE = "FIRMWARE_UPDATE",
+  HSCODE = "HSCODE",
+  TAX_RATE = "TAX_RATE",
+  TRADER_UPDATE = "TRADER_UPDATE"
+}
+
+export enum DeviceMessageFilterEnum {
+  ALL_TAXPAYERS = "ALL_TAXPAYERS",
+  BY_COUNTY = "BY_COUNTY",
+  INDIVIDUAL_TAXPAYER = "INDIVIDUAL_TAXPAYER"
+}
+
+export enum DeviceFeatureType {
+  HARDWARE = "HARDWARE",
+  SOFTWARE = "SOFTWARE"
+}
+
+export enum DeviceModelScoreStatus {
+  PASS = "PASS",
+  FAIL = "FAIL"
+}
+
+export enum DeviceStatus {
+  ACTIVE = "ACTIVE",
+  INACTIVE = "INACTIVE",
+  ALLOCATED = "ALLOCATED",
+  APPROVED = "APPROVED",
+  PENDING_TRANSFER = "PENDING_TRANSFER",
+  REPAIR = "REPAIR",
+  IN_STORE = "IN_STORE",
+  PENDING_FISCALISATION = "PENDING_FISCALISATION",
+  BLOCK = "BLOCK",
+  UNBLOCK = "UNBLOCK",
+  DEAD_ON_ARRIVAL = "DEAD_ON_ARRIVAL",
+  BLOCK_REPAIR = "BLOCK_REPAIR"
+}
+
+export enum FeatureComments {
+  YES = "YES",
+  NO = "NO"
+}
+
+export enum Priority {
+  HIGH = "HIGH",
+  MEDIUM = "MEDIUM",
+  LOW = "LOW"
+}
+
+export enum TaskStatusEnum {
+  ACTIVE = "ACTIVE",
+  COMPLETED = "COMPLETED",
+  ALL = "ALL"
+}
+
+export enum ManufacturerSuplierStatus {
+  IN_PROGRESS = "IN_PROGRESS",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  SUSPENDED = "SUSPENDED",
+  MORE_DETAILS_REQUIRED = "MORE_DETAILS_REQUIRED"
+}
+
+export enum ModelStatus {
+  IN_PROGRESS = "IN_PROGRESS",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  SUSPENDED = "SUSPENDED"
+}
+
+export enum DeviceQuestionCategory {
+  CATEGORY = "CATEGORY",
+  SUB_CATEGORY = "SUB_CATEGORY"
+}
+
+export enum EducationLevel {
+  HIGH_SCHOOL = "HIGH_SCHOOL",
+  DIPLOMA = "DIPLOMA",
+  DEGREE = "DEGREE",
+  MASTERS = "MASTERS"
+}
+
+export enum TaskAssignmentPolicy {
+  ROUND_ROBIN = "ROUND_ROBIN",
+  LEAST_TASKS = "LEAST_TASKS",
+  LEAST_TURN_AROUND = "LEAST_TURN_AROUND"
+}
+
+export enum TenantType {
+  AUTHORITY = "AUTHORITY",
+  MANUFACTURER = "MANUFACTURER",
+  SUPPLIER = "SUPPLIER",
+  TAXPAYER = "TAXPAYER"
+}
+
+export enum SimcardStatus {
+  INACTIVE = "INACTIVE",
+  ACTIVE = "ACTIVE",
+  ALLOCATED = "ALLOCATED"
+}
+
+export enum ConsignmentStatus {
+  PREPARATION = "PREPARATION",
+  SHIPPED = "SHIPPED",
+  RECEIVED = "RECEIVED",
+  VERIFIED = "VERIFIED",
+  REJECTED_LRA = "REJECTED_LRA"
+}
+
+export enum DeviceTransferStatus {
+  UNAPPROVED = "UNAPPROVED",
+  APPROVED = "APPROVED",
+  NEW = "NEW",
+  REJECTED = "REJECTED",
+  AMENDMENT_REQUESTED = "AMENDMENT_REQUESTED"
+}
+
+export enum RequisitionStatus {
+  PREPARED = "PREPARED",
+  APPROVED = "APPROVED",
+  SHIPPED = "SHIPPED",
+  DELIVERED = "DELIVERED",
+  REJECTED = "REJECTED"
+}
+
+export enum SupplierModelRequestStatus {
+  IN_PROGRESS = "IN_PROGRESS",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED"
+}
+
+export enum TechnicianStatus {
+  UNAPPROVED = "UNAPPROVED",
+  SUSPENDED = "SUSPENDED",
+  DISABLED = "DISABLED",
+  BLACKLISTED = "BLACKLISTED",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  MORE_DATA = "MORE_DATA"
+}
+
+export enum TicketClass {
+  SUPPORT = "SUPPORT",
+  REPAIR = "REPAIR"
+}
+
+export enum TicketRepairLevel {
+  LEVEL_1 = "LEVEL_1",
+  LEVEL_2 = "LEVEL_2",
+  LEVEL_3 = "LEVEL_3",
+  LEVEL_4 = "LEVEL_4",
+  LEVEL_5 = "LEVEL_5"
+}
+
+export enum TicketStatus {
+  RAISED = "RAISED",
+  RESOLVED = "RESOLVED",
+  ASSIGNED = "ASSIGNED",
+  REVIEW = "REVIEW",
+  CLOSED = "CLOSED"
+}
+
+export enum TicketTenantType {
+  AUTHORITY = "AUTHORITY",
+  SUPPLIER = "SUPPLIER",
+  MANUFACTURER = "MANUFACTURER",
+  TAXPAYER = "TAXPAYER"
+}
+
+export enum DeviceRequestDetailsEnum {
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  UNAPPROVED = "UNAPPROVED"
+}
+
+export enum TraderDeviceStatus {
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  UNAPPROVED = "UNAPPROVED",
+  AMENDMENTS_NEEDED = "AMENDMENTS_NEEDED",
+  PARTIALLY_APPROVED = "PARTIALLY_APPROVED"
+}

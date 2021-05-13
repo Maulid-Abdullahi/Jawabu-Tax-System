@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+h3{
+padding:10px !important;
+text-align: left !important;
+font-weight: 600 !important;
+font-size:20px !important;
+letter-spacing: 0px !important;
+color: #DC3545 !important;
+background-color: #F5F5F5 !important;
+text-transform: capitalize !important;
+opacity: 1 !important;
+margin-bottom: 2% !important;
+}
+h1{
+  text-align: left !important;
+  font-size:  26px !important;
+  letter-spacing: 0px !important;
+  color: #002868 !important;
+  text-transform: capitalize;
+  opacity: 1 !important;
+  font-weight: 600 !important;
+  text-align: left !important;
+}
+.ant-table-thead > tr >th{
+  background-color: #dc3545 !important;
+  color: #fff !important;
+}
+tr{
+  cursor: pointer;
+}
+.ant-form-item-label{
+  line-height: 16px !important;
+  
+}
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td{
+  background: rgb(236, 236, 236) !important;
+}

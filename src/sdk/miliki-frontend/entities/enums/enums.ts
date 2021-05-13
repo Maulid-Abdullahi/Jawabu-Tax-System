@@ -1,0 +1,145 @@
+export enum ApproveEnum {
+  APPROVE = "APPROVE",
+  REJECT = "REJECT",
+  RETURN_FOR_AMENDMENT = "RETURN_FOR_AMENDMENT"
+}
+
+export enum MnoStatus {
+  UNAPPROVED = "UNAPPROVED",
+  APPROVED = "APPROVED",
+  SUSPENDED = "SUSPENDED",
+  REJECTED = "REJECTED",
+  MORE_DETAILS_REQUIRED = "MORE_DETAILS_REQUIRED"
+}
+
+export enum RegistrationFileType {
+  MANUFACTURER = "MANUFACTURER",
+  SUPPLIER = "SUPPLIER",
+  TECHNICIAN = "TECHNICIAN",
+  TRADER = "TRADER"
+}
+
+export enum DeviceModelScoreStatus {
+  PASS = "PASS",
+  FAIL = "FAIL"
+}
+
+export enum DeviceStatus {
+  ACTIVE = "ACTIVE",
+  INACTIVE = "INACTIVE",
+  ALLOCATED = "ALLOCATED",
+  APPROVED = "APPROVED",
+  PENDING_TRANSFER = "PENDING_TRANSFER"
+}
+
+export enum ManufacturerSuplierStatus {
+  IN_PROGRESS = "IN_PROGRESS",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  SUSPENDED = "SUSPENDED",
+  MORE_DETAILS_REQUIRED = "MORE_DETAILS_REQUIRED"
+}
+
+export enum ModelStatus {
+  IN_PROGRESS = "IN_PROGRESS",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  SUSPENDED = "SUSPENDED"
+}
+
+export enum DeviceQuestionCategory {
+  CATEGORY = "CATEGORY",
+  SUB_CATEGORY = "SUB_CATEGORY"
+}
+
+export enum EducationLevel {
+  HIGH_SCHOOL = "HIGH_SCHOOL",
+  DIPLOMA = "DIPLOMA",
+  DEGREE = "DEGREE",
+  MASTERS = "MASTERS"
+}
+
+export enum TaskAssignmentPolicy {
+  ROUND_ROBIN = "ROUND_ROBIN",
+  LEAST_TASKS = "LEAST_TASKS",
+  LEAST_TURN_AROUND = "LEAST_TURN_AROUND"
+}
+
+export enum TenantType {
+  AUTHORITY = "AUTHORITY",
+  MANUFACTURER = "MANUFACTURER",
+  SUPPLIER = "SUPPLIER",
+  TAXPAYER = "TAXPAYER"
+}
+
+export enum SimcardStatus {
+  INACTIVE = "INACTIVE",
+  ACTIVE = "ACTIVE",
+  ALLOCATED = "ALLOCATED"
+}
+
+export enum ConsignmentStatus {
+  PREPARATION = "PREPARATION",
+  SHIPPED = "SHIPPED",
+  RECEIVED = "RECEIVED",
+  VERIFIED = "VERIFIED"
+}
+
+export enum DeviceTransferStatus {
+  UNAPPROVED = "UNAPPROVED",
+  APPROVED = "APPROVED",
+  NEW = "NEW",
+  REJECTED = "REJECTED",
+  AMENDMENT_REQUESTED = "AMENDMENT_REQUESTED"
+}
+
+export enum RequisitionStatus {
+  PREPARED = "PREPARED",
+  APPROVED = "APPROVED",
+  SHIPPED = "SHIPPED",
+  DELIVERED = "DELIVERED",
+  REJECTED = "REJECTED"
+}
+
+export enum SupplierModelRequestStatus {
+  IN_PROGRESS = "IN_PROGRESS",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED"
+}
+
+export enum TechnicianStatus {
+  UNAPPROVED = "UNAPPROVED",
+  SUSPENDED = "SUSPENDED",
+  DISABLED = "DISABLED",
+  BLACKLISTED = "BLACKLISTED",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  MORE_DATA = "MORE_DATA"
+}
+
+export enum TicketClass {
+  SUPPORT = "SUPPORT",
+  REPAIR = "REPAIR"
+}
+
+export enum TicketStatus {
+  RAISED = "RAISED",
+  RESOLVED = "RESOLVED",
+  ASSIGNED = "ASSIGNED",
+  REVIEW = "REVIEW",
+  CLOSED = "CLOSED"
+}
+
+export enum TicketTenantType {
+  AUTHORITY = "AUTHORITY",
+  SUPPLIER = "SUPPLIER",
+  MANUFACTURER = "MANUFACTURER",
+  TAXPAYER = "TAXPAYER"
+}
+
+export enum TraderDeviceStatus {
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  UNAPPROVED = "UNAPPROVED",
+  AMENDMENTS_NEEDED = "AMENDMENTS_NEEDED"
+}

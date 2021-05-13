@@ -1,0 +1,26 @@
+.technician-parent{
+    .ant-select-selection, input{
+           height: 42px;
+       }
+       button{
+          width: 260px;
+           height: 60px; 
+       }
+   }
+   
+   .citizenship-status{
+       margin-top: 3%; 
+       .citizen{
+           margin-bottom: 0;
+       }
+   }
+   .dropzone{
+       cursor: pointer;
+        &::hover{
+                background-color: lighten(#002868, 50%) !important; 
+           }
+   }
+   .ant-input{
+     height: 50px;  
+   }
+   

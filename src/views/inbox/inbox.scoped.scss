@@ -1,0 +1,39 @@
+.eyeIcon {
+color: grey;
+padding-top: 5px;
+font-size: 16px;
+}
+
+.iconText {
+text-decoration: none;
+font-size: 16px;
+padding-top: 2px;
+padding-left: 2px;
+}
+.button {
+display: flex;
+border-color: transparent;
+}
+.serial-range-container{
+    display: flex;
+   justify-content: space-between;
+   width: 322px;
+}
+.submit-btn{
+width: 260px;
+height: 60px;
+}
+.submit-btn2{
+width: 260px;
+height: 60px;
+}
+.approve-submit{
+    width: 70%;
+  .submit-btn{
+      margin-left: 75%;
+   }
+}
+h1{
+    text-align: center !important;
+    margin-bottom: 1em;
+}

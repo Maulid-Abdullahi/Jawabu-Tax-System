@@ -1,0 +1,98 @@
+h2,
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.task-logos {
+    display: flex;
+    align-items: center;
+
+    // justify-content: center;
+    img {
+        margin-right: 2%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+.searchButton {
+    width: 182px;
+    height: 60px;
+}
+.ant-input {
+    height: 40px !important;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.card {
+    width: 240px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 20px;
+    border-color: rgb(243, 243, 243);
+    border: 1px solid #ccc3c3;
+    background-position-y: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.taskcard-gray{
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+   border-radius: 5px;
+     opacity: 1;
+     padding: 30px;
+     margin: 2%;
+     height: 280px;
+}
+.taskcard-white{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+}
+
+
+.taskcard-gray p{
+   font-size: 13px;
+   color: #000;
+   text-align: center;
+}
+
+.taskcard-gray h5{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+ }
+ .taskcard-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-bottom: 10px;
+    height: 75px;
+ }
+ .taskcard-gray h6{
+    text-align:center;
+    font-size: 16px;
+    color: #3598DC;
+    font-weight: 600;
+ }
+ .taskcard-gray:hover{
+    background: #3598DC;
+    h5,p,h6{
+        color: white;
+    }
+
+}

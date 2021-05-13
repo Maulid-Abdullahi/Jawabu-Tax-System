@@ -1,0 +1,37 @@
+* {
+    font-family: 'Poppins';
+}
+
+.changePasswordForm {
+    width: 500px;
+    margin: 0 auto !important;
+    h2 {
+        color: #dc3545 !important;
+    }
+}
+
+.profileForm {
+    margin: 0 auto !important;
+    width: 90%;
+}
+
+.userProfile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px !important;
+}
+.profileDetails {
+    background-color: #f5f5f5;
+    h5 {
+        color: #002868;
+    }
+}
+.ant-input {
+    border: 1px solid transparent !important;
+    background-color: none !important;
+}
+.fa-user-circle-o {
+    // margin-left: 45% !important;
+    font-size: 100px;
+    color: #002868cb;
+}

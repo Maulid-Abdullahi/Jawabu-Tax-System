@@ -1,0 +1,48 @@
+// If you want to override variables do it here
+// @import '~antd/dist/antd.css';
+@import './custom-antd.css';
+@import 'variables';
+
+$body-bg: #ffff;
+$theme-colors: (
+    //"primary": lighten(#002868, 10%),
+    'danger': #dc3545
+);
+
+$sidebar-lg-width: 400px;
+$sidebar-width: 300px;
+$sidebar-xl-width: 400px;
+
+$sidebar-dark-nav-link-hover-color: #fff;
+$sidebar-dark-nav-link-hover-bg: lighten(#002868, 10%);
+$sidebar-dark-nav-link-hover-icon-color: #fff;
+
+$sidebar-dark-nav-link-active-color: #fff;
+$sidebar-dark-nav-link-active-bg: lighten(#002868, 10%);
+$sidebar-dark-nav-link-active-icon-color: #fff;
+
+// $sidebar-dark-nav-dropdown-color:rgba(255, 255, 255, 0.6);
+// $sidebar-dark-nav-dropdown-bg: #002868;
+// $sidebar-dark-nav-dropdown-indicator-hover-color: #002868;
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+// Import CoreUI styles
+@import '~@coreui/coreui/scss/coreui.scss';
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+// Some temp fixes
+@import 'fixes';
+
+// If you want to add something do it here
+@import 'custom';

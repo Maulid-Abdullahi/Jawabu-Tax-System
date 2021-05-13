@@ -1,0 +1,6 @@
+docker build -t tracomservices/miliki-react-supplier-portal:tag .
+Run Prod - docker run -it --rm -p 1337:80 tracomservices/miliki-react-supplier-portal:tag
+Run dev - docker run -itd --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true tracomservices/miliki-react-supplier-portal:tag
+docker push tracomservices/miliki-react-supplier-portal:tag
+
+docker tag tracomservices/miliki-react-supplier-portal:oldtag tracomservices/miliki-react-supplier-portal:newtag

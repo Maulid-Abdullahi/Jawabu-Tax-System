@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.cardLayout {
+    display: grid;
+    height: 500px;
+    text-align: center;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 215px 215px 215px;
+    gap: 5px;
+    min-height: 0;
+    min-width: 0;
+    grid-template-areas:
+        'card1 card2 card3'
+        'card4 card5 card6';
+
+    h1 {
+        color: white !important;
+        position: absolute;
+        bottom: 90px;
+        right: 40px;
+        font-size: 30px;
+        font-weight: bold;
+        opacity: 0.9;
+        letter-spacing: 0px;
+        font: normal normal medium 26px/55px Poppins;
+    }
+    p {
+        color: white;
+        position: absolute;
+        bottom: 55px;
+        right: 40px;
+        font-size: 17px;
+    }
+}
+
+.card1 {
+    transition: background-color 0.8s ease;
+    background-color: #3598dc;
+    grid-area: card1;
+    border-radius: 6px 0px 0px 0px;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left;
+    position: relative;
+}
+
+.card2 {
+    transition: background-color 0.8s ease;
+    background-color: #3598dc;
+    grid-area: card2;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left;
+    position: relative;
+}
+
+.card3 {
+    transition: background-color 0.8s ease;
+    background-color: #3598dc;
+    grid-area: card3;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left;
+    position: relative;
+}
+
+.card4 {
+    transition: background-color 0.8s ease;
+    background-color: #3598dc;
+    grid-area: card4;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left;
+    position: relative;
+}
+
+.card5 {
+    transition: background-color 0.8s ease;
+    background-color: #3598dc;
+    grid-area: card5;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left;
+    position: relative;
+}
+
+.card6 {
+    transition: background-color 0.8s ease;
+    background-color: #3598dc;
+    grid-area: card6;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left;
+    position: relative;
+}
+.effect:hover {
+    background-color: #1f7fc0;
+}
+
+.charts {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 55vh 55vh 55vh;
+    gap: 1em;
+}
+
+.graphs {
+    background:white;
+    padding: 1em;
+    // margin-top: 2em;
+    padding-bottom: 4em;
+    box-shadow: 0 4px 8px 0 rgba(117, 117, 117, 0.2), 0 6px 20px 0 rgba(112, 112, 112, 0.19);
+}
+
+.date-filters {
+    height: 5vh;
+}
+input:hover{
+  cursor: pointer;
+
+}
+
+

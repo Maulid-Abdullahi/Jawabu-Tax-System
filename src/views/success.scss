@@ -1,0 +1,16 @@
+.success-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   // margin-top: 10%;
+    .success-logo{
+    //max-width: 100%;
+    //height : auto;
+    margin: 5%;
+    }
+    button{
+    width: 260px;
+    height: 60px; 
+}
+}

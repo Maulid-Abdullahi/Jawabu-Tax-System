@@ -1,0 +1,60 @@
+#login{
+   height: 100%;
+}
+.login-container{
+   display: flex;
+   flex-direction: column;
+}
+.textfield{
+   height: 60px;
+   width: 404px;
+}
+.page-titles{
+   h3{
+      color: #666666 !important;
+      text-align: center !important;
+      background-color: #fff !important;
+   }
+   h4{
+      color: #666666 !important;
+      text-align: center !important;
+      font-size: 16px !important;
+   }
+}
+.login-logo{
+ max-width: 100%;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.forgot-change{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 2%;
+ a{
+      color: #5469D4;
+      font-weight: bold;
+ }
+}
+
+.contact-us{
+   margin-top: 2%;
+   text-align: center;
+   a{
+      color: #666666;
+      font-weight: bold;
+   }
+}
+.resend-otp{
+   margin-top: 3%;
+   button{
+      background-color: #E1E7EB;
+       color: #666666;
+     border: none;
+     &:hover{
+        background-color: darken(#E1E7EB, 10%);
+     }
+   }
+}
